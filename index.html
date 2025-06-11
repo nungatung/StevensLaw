@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M.Stevens - Attorny at Law</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- 🔹 HEADER / NAV -->
+<header class="header">
+  <div class="navbar-container">
+
+    <!-- 🔹 Desktop Nav -->
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#specialization">Areas of Specialization</a></li>
+        <li><a href="#jurisdictions">Jurisdictions</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- 🔹 Right-Aligned Logo -->
+    <div class="logo-img">
+      <img src="images/stevens-logo.png" alt="Stevens Logo" />
+    </div>
+
+    <!-- 🔹 Hamburger (Mobile Only) -->
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+</header>
+
+
+  <!-- 🔹 HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Legal Expertise. Trusted Advocacy.</h1>
+      <p>Serving clients with excellence, integrity and care.</p>
+    </div>
+  </section>
+
+  <!-- 🔹 MAIN CONTENT -->
+  <main class="main-content">
+    <section class="intro">
+      <h2>Welcome to M.Stevens (Attorny At law)</h2>
+      <p>The firm is based in Cape Town CBD and established by Marcello Stevens on the 7th of November 2008 as a sole proprietor. The firm specializes in Criminal Litigation exclusively as the proprietor has vast experience in Criminal Litigation drawn from seven years in the service of the National Prosecuting Authority as a prosecutor. The firm deals with various complex criminal matters on District Court and Regional court levels and defended charges ranging from theft , rape, armed robbery, murder and dealing in narcotics.</p>
+    </section>
+  </main>
+
+  <!-- Specialization-->
+<section class="specialization-section">
+  <div class="specialization-container">
+    <!-- Left image -->
+    <div class="specialization-image">
+      <img src="images/cpt-scenery.jpg" alt="Cape Town Scenery">
+    </div>
+
+    <!-- Right content -->
+    <div class="specialization-content">
+  <h2>Areas of Specialization</h2>
+  <p>
+    M.Stevens Attorneys brings extensive legal experience, with a strong track record in defending serious criminal matters including narcotics, violent crimes, and commercial offences. 
+    The proprietor is admitted to practice in the High Court and commenced accepting matters with High Court jurisdiction. 
+    Mr Stevens also assists new companies in forensic investigation drafting charges and guiding Directors in matters of fraud and disputed documents research.
+  </p>
+
+  <!-- Updated Call-to-Action Button -->
+  <button class="cssbuttons-io-button">
+    Learn more
+    <div class="icon">
+      <svg
+        height="24"
+        width="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <path
+          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </div>
+  </button>
+</div>
+
+  </div>
+</section>
+
+<!-- Testimonials -->
+ <section class="testimonials-section">
+  <h2 class="testimonials-heading">Client Testimonials</h2>
+  
+  <div class="testimonial-carousel">
+    <button class="carousel-arrow left" onclick="moveSlide(-1)">&#10094;</button>
+
+    <div class="testimonial-track" id="testimonialTrack">
+      <div class="testimonial-card">
+        <p>“Professional, compassionate and always accessible. Highly recommend their services.”</p>
+        <span>- J. Mokoena</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Marcello Stevens provided expert advice that helped us win our case.”</p>
+        <span>- A. Jacobs</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Efficient and thorough legal support during a challenging time.”</p>
+        <span>- R. Daniels</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Trustworthy, discreet, and results-driven. What more can you ask?”</p>
+        <span>- N. Petersen</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Always one step ahead. I felt protected and informed.”</p>
+        <span>- T. Naidoo</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Excellent legal acumen with a human touch. Thank you for your guidance.”</p>
+        <span>- K. van Wyk</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Clear, direct, and always professional. Highly recommend this firm.”</p>
+        <span>- L. Mthembu</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Marcello’s team turned a complex legal matter into a stress-free experience.”</p>
+        <span>- P. Singh</span>
+      </div>
+    </div>
+
+    <button class="carousel-arrow right" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+</section>
+
+
+
+  <!-- 🔹 FOOTER -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-grid">
+
+      <!-- Left: Logo Image -->
+      <div class="footer-logo-img">
+        <img src="images/stevens-logo.png" alt="Marcello Stevens Logo" />
+      </div>
+
+      <!-- Contact Links -->
+       <div id="contact">
+        <h4 class="column-title">Contact Us</h4>
+        <ul class="footer-contact">
+          <li>
+            <a class="footer-contact-link" href="tel:0214658226">
+              <i class="fas fa-phone"></i> 021 465 8226
+            </a>
+          </li>
+          <li>
+            <a class="footer-contact-link" href="mailto:marcello@mstevenslaw.co.za">
+              <i class="fas fa-envelope"></i> marcello@mstevenslaw.co.za
+            </a>
+          </li>
+          <li class="address">
+            <i class="fas fa-location-dot"></i> 24 Barrack Street, Burleigh House, 4th Floor, Cape Town, South Africa
+          </li>
+        </ul>
+    </div>
+
+    <p class="legal">
+      © 2025 M.Stevens Attorney at Law. All rights reserved. | Cape Town | South Africa
+    </p>
+  </div>
+</footer>
+
+
+<script src="script.js"></script> 
+</body>
+</html>
